@@ -1,6 +1,6 @@
 osx_image: xcode10.1
 language: swift
 script:
-- sudo gem install fastlane
+- cd Numero
 - fastlane init
 - fastlane scan
